@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('font.ttf')  format('truetype');    
+  }
+
+
+
+body{
+    margin: 0;
+    background-image: url(back.png);
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+}
+.content{
+    /*background-color: white;
+    height:300px;
+    width:300px;
+    */
+    padding-left:0px;
+    padding-right:0px;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px #14989c;
+}
+h2{
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px #2e2c2c;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social{
+display: flex;
+justify-content: center;
+    align-items: center;
+}
+.social-items{
+    height:35px;
+    width:35px;
+    margin-left:10px;
+}
+.linkedin{
+    background-image: url(images/linkedin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.linkedin:hover{
+    background-image: url(images/linkedin-active.png);
+}
+.github{
+    background-image: url(images/github.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.github:hover{
+    background-image: url(images/github-active.png);
+}
+.medium{
+    background-image: url(images/medium.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.medium:hover{
+    background-image: url(images/medium-active.png);
+}
+.profile{
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-block-width: 1px;
+    height:90px;
+    width:90px;
+}
